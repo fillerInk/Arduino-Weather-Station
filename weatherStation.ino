@@ -87,11 +87,11 @@ void loop() {
   }
 
   oled.setCursor(1,1);
-  oled.print("Humidity    : ");
+  oled.print("Humidity is : ");
   oled.print(h);
   oled.print(" %");
   oled.setCursor(1,11);
-  oled.print("Temperature : ");
+  oled.print("Temperature is : ");
   oled.print(t);
 
   if(state == HIGH)                    // the same conditionals as above, to display the units of temperature
